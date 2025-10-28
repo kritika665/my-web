@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Base - Tailwind CSS Startup Template</title>
-  <link rel="icon" href="favicon.ico">
+  <title>Webhouse4you</title>
+  <link rel="icon" href="images/svg-logo.png">
   <link href="style.css" rel="stylesheet">
 </head>
 
@@ -21,8 +21,11 @@
     <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
       <div class="vd to/4 tc wf yf">
         <a href="index.html">
-          <img class="om" src="images/logo-light.svg" alt="Logo Light" />
-          <img class="xc nm" src="images/logo-dark.svg" alt="Logo Dark" />
+          <div class="logo-white" >
+          <img class="" src="images/Update_the_WebHouse4-removebg-preview.png" alt="Logo Light" height="220" width="220" />
+
+          </div>
+          <!-- <img class=" src="" alt="Logo Dark" /> -->
         </a>
 
         <!-- Hamburger Toggle BTN -->
@@ -48,26 +51,15 @@
             <li><a href="index.html" class="xl" :class="{ 'mk': page === 'home' }">Home</a></li>
             <li><a href="index.html#features" class="xl">Our Work</a></li>
             <li class="c i" x-data="{ dropdown: false }">
-              <a href="#!" class="xl tc wf yf bg" @click.prevent="dropdown = !dropdown"
+              <a href="web-serv\web-serv\about.html" class="xl tc wf yf bg" @click.prevent="dropdown = !dropdown"
                 :class="{ 'mk': page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }">
                 About US
 
-                <svg :class="{ 'wh': dropdown }" class="th mm we fd pf" xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512">
-                  <path
-                    d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-                </svg>
+               
               </a>
 
               <!-- Dropdown Start -->
-              <ul class="a" :class="{ 'tc': dropdown }">
-                <li><a href="blog-grid.html" class="xl" :class="{ 'mk': page === 'blog-grid' }">Blog Grid</a></li>
-                
-                <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">Blog Single</a></li>
-                <li><a href="signin.html" class="xl" :class="{ 'mk': page === 'signin' }">Sign In</a></li>
-                <li><a href="signup.html" class="xl" :class="{ 'mk': page === 'signup' }">Sign Up</a></li>
-                <li><a href="404.html" class="xl" :class="{ 'mk': page === '404' }">404</a></li>
-              </ul>
+             
               <!-- Dropdown End -->
             </li>
             <li><a href="index.html#support" class="xl">Contact</a></li>
@@ -129,9 +121,9 @@
           </div>
 
           <a href="signin.html" :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }"
-            class="ek pk xl">Sign In</a>
+            class="ek pk xl"></a>
           <a href="signup.html" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }"
-            class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
+            class="lk gh dk rg tc wf xf _l gi hi">Contact Now</a>
         </div>
       </div>
     </div>
@@ -149,7 +141,7 @@
         <img src="images/shape-03.svg" alt="shape" class="xc 2xl:ud-block h v w va" />
         <img src="images/shape-04.svg" alt="shape" class="h q r" />
         <div class="women-png">
-        <img src="images/Screenshot_2025-10-21_043019-removebg-preview.png" alt="Woman" class="h q r ua" height="300" />
+        <img src="" alt="Woman" class="h q r ua" height="300" />
 
         </div>
       </div>
@@ -160,8 +152,8 @@
           <div class="animate_left jn/2">
             <h1 class="fk vj zp or kk wm wb">We specialize in UI/UX, Web Development, Digital Marketing.</h1>
             <p class="fq">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla magna mauris. Nulla fermentum
-              viverra sem eu rhoncus consequat varius nisi quis, posuere magna.
+              Designing user-first interfaces, building scalable websites, and driving measurable digital growth.
+              Helping brands launch, grow, and thrive with stunning design, smart tech, and strategic digital reach.
             </p>
 
             <div class="tc tf yo zf mb">
@@ -189,7 +181,7 @@
             </div>
             <div>
               <h4 class="ek yj go kk wm xb">24/7 Support</h4>
-              <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
+              <p>Dedicated support team available 24/7 to answer questions, fix bugs, and guide your growth.</p>
             </div>
           </div>
 
@@ -199,8 +191,8 @@
               <img src="images/icon-02.svg" alt="Icon" />
             </div>
             <div>
-              <h4 class="ek yj go kk wm xb">Take Ownership</h4>
-              <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
+              <h4 class="ek yj go kk wm xb">Sales Growth</h4>
+              <p>Driving consistent sales growth through performance marketing, UX optimization, and scalable tech.</p>
             </div>
           </div>
 
@@ -211,7 +203,7 @@
             </div>
             <div>
               <h4 class="ek yj go kk wm xb">Team Work</h4>
-              <p>Lorem ipsum dolor sit amet conse adipiscing elit.</p>
+              <p>Blending diverse skills and perspectives to craft smarter, stronger digital solutions.</p>
             </div>
           </div>
         </div>
@@ -241,8 +233,7 @@
           <div class="animate_right jn/2">
             <h4 class="ek yj mk gb">Why Choose Us</h4>
             <h2 class="fk vj zp pr kk wm qb">We Make Our customers happy by giving Best services.</h2>
-            <p class="uo">It is a long established fact that a reader will be distracted by the readable content of a
-              page when looking at its layout. The point of using Lorem Ipsum.</p>
+            <p class="uo">At the heart of everything we do is a simple promise: to make our customers genuinely happy by delivering exceptional service at every step. Whether it's crafting intuitive user interfaces, building robust web platforms, or driving digital growth through smart marketing, we go above and beyond to understand your goals and exceed expectations. Our team blends creativity, precision, and passion to ensure every project feels personal, powerful, and perfectly aligned with your vision. From the first interaction to long-term support, we’re committed to creating experiences that not only work—but wow.</p>
 
             <a href="https://www.youtube.com/watch?v=xcJtL7QggTI" data-fslightbox class="vc wf hg mb">
               <span class="tc wf xf be dd rg i gh ua">
@@ -436,7 +427,7 @@
     <section class="lj tp kr">
       <!-- Section Title Start -->
       <div
-        x-data="{ sectionTitle: `We Offer The Best Quality Service for You`, sectionTitleText: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`}">
+        x-data="{ sectionTitle: `We Offer The Best Quality Service for You`}">
         <div class="animate_top bb ze rj ki xn vq">
           <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
           </h2>
@@ -452,44 +443,70 @@
           <!-- Service Item -->
           <div class="animate_top sg oi pi zq ml il am cn _m">
             <img src="images/icon-04.svg" alt="Icon" />
-            <h4 class="ek zj kk wm nb _b">Crafted for Startups</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+            <h4 class="ek zj kk wm nb _b">Custom Website Development</h4>
+            <p>Your website isn’t just a digital address—it’s your brand’s first impression, your sales engine, and your story all rolled into one. That’s why our custom website development goes far beyond templates and trends. We build from scratch, tailoring every pixel and interaction to reflect your unique identity, goals, and audience. Whether you're launching a startup, scaling a business, or reimagining your online presence, we craft responsive, lightning-fast websites that look stunning and perform flawlessly across devices.</p>
           </div>
 
           <!-- Service Item -->
           <div class="animate_top sg oi pi zq ml il am cn _m">
             <img src="images/icon-05.svg" alt="Icon" />
-            <h4 class="ek zj kk wm nb _b">High-quality Design</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+            <h4 class="ek zj kk wm nb _b">eCommerce Development</h4>
+            <p> We build eCommerce platforms that don’t just sell—they scale. Whether you're launching a boutique store or managing thousands of SKUs, our custom eCommerce development is engineered for performance, conversion, and growth. From sleek product pages and frictionless checkout flows to deep integration with Indian payment gateways, shipping APIs, and inventory systems, we craft solutions that feel effortless for users and powerful for you..</p>
           </div>
 
           <!-- Service Item -->
           <div class="animate_top sg oi pi zq ml il am cn _m">
             <img src="images/icon-06.svg" alt="Icon" />
-            <h4 class="ek zj kk wm nb _b">All Essential Sections</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+            <h4 class="ek zj kk wm nb _b"> Enterprise Web Applications</h4>
+            <p> We build enterprise web applications that power real business. Whether you're managing operations, automating workflows, or scaling across teams and geographies, our solutions are engineered for performance, security, and long-term growth. We architect custom platforms that integrate seamlessly with your existing systems, support complex user roles, and handle high volumes of data without breaking a sweat.</p>
           </div>
 
           <!-- Service Item -->
           <div class="animate_top sg oi pi zq ml il am cn _m">
             <img src="images/icon-07.svg" alt="Icon" />
-            <h4 class="ek zj kk wm nb _b">Speed Optimized</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+            <h4 class="ek zj kk wm nb _b">WordPress Development</h4>
+            <p>We don’t just install themes—we engineer WordPress websites that are fast, flexible, and fully tailored to your brand. Whether you need a sleek business site, a content-rich blog, or a dynamic eCommerce platform, we harness the full power of WordPress to deliver a solution that’s easy to manage and built to scale. From custom themes and plugins to performance optimization and SEO-ready architecture, every detail is crafted with precision. We prioritize clean code, responsive design, and intuitive admin panels—so you stay in control while your site works hard behind the scenes. </p>
           </div>
 
           <!-- Service Item -->
           <div class="animate_top sg oi pi zq ml il am cn _m">
             <img src="images/icon-05.svg" alt="Icon" />
-            <h4 class="ek zj kk wm nb _b">Fully Customizable</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+            <h4 class="ek zj kk wm nb _b">Shopify & Magento Development</h4>
+            <p>Whether you're launching a sleek direct-to-consumer brand or managing a complex multi-vendor marketplace, we build eCommerce experiences that sell with style and scale with ease. Our Shopify development focuses on speed, simplicity, and stunning storefronts—perfect for fast-growing brands that want full control and seamless integrations. For businesses that need deep customization, advanced inventory logic, or multi-store capabilities, our Magento solutions deliver enterprise-grade power with pixel-perfect precision.</p>
           </div>
 
           <!-- Service Item -->
           <div class="animate_top sg oi pi zq ml il am cn _m">
             <img src="images/icon-06.svg" alt="Icon" />
-            <h4 class="ek zj kk wm nb _b">Regular Updates</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+            <h4 class="ek zj kk wm nb _b">React, Angular & Node.js Development</h4>
+            <p>We specialize in building lightning-fast, interactive web applications using the most powerful technologies in the modern stack—React, Angular, and Node.js. Whether you're creating a dynamic dashboard, a real-time platform, or a scalable SaaS product, we architect solutions that are modular, maintainable, and built for performance. Our frontend development delivers smooth, responsive interfaces that feel native across devices, while our Node.js backend ensures speed, security, and seamless API integration. 
+</p>
           </div>
+
+
+                   <div class="animate_top sg oi pi zq ml il am cn _m">
+            <img src="images/icon-06.svg" alt="Icon" />
+            <h4 class="ek zj kk wm nb _b">React, Angular & Node.js Development</h4>
+            <p>We specialize in building lightning-fast, interactive web applications using the most powerful technologies in the modern stack—React, Angular, and Node.js. Whether you're creating a dynamic dashboard, a real-time platform, or a scalable SaaS product, we architect solutions that are modular, maintainable, and built for performance. Our frontend development delivers smooth, responsive interfaces that feel native across devices, while our Node.js backend ensures speed, security, and seamless API integration. 
+</p>
+          </div>
+
+                   <div class="animate_top sg oi pi zq ml il am cn _m">
+            <img src="images/icon-06.svg" alt="Icon" />
+            <h4 class="ek zj kk wm nb _b">PHP & Laravel Development</h4>
+            <p>We build backend systems that are fast, secure, and built to last—powered by the reliability of PHP and the elegance of Laravel. Whether you're developing a custom web application, integrating complex APIs, or managing dynamic user flows, our PHP & Laravel solutions offer the perfect balance of flexibility and performance. We architect clean, modular codebases that scale effortlessly and stay maintainable over time. With Laravel’s expressive syntax, built-in security features, and powerful routing and ORM capabilities, we accelerate development without compromising quality. 
+</p>
+          </div>
+
+
+                   <div class="animate_top sg oi pi zq ml il am cn _m">
+            <img src="images/icon-06.svg" alt="Icon" />
+            <h4 class="ek zj kk wm nb _b">Web Maintenance & Support</h4>
+
+<p>A great website doesn’t end at launch—it evolves, adapts, and stays sharp with the right support. Our Web Maintenance & Support service ensures your digital presence stays fast, secure, and fully functional—day after day. From regular updates and performance tuning to bug fixes, backups, and security patches, we handle the behind-the-scenes work so you can focus on growth. Whether it’s a sudden issue, a new feature request, or ongoing optimization, our team is just a message away—ready to respond with speed, precision, and care.</p>
+          </div>
+
+          
         </div>
       </div>
     </section>
@@ -589,15 +606,20 @@
           </button>
           <button data-filter=".branding" @click="filterTab = 2" :class="{ 'gh lk' : filterTab === 2 }"
             class="project-tab-btn ek rg ml il vi mi">
-            Branding Strategy
+            Ecommerce
           </button>
           <button data-filter=".digital" @click="filterTab = 3" :class="{ 'gh lk' : filterTab === 3 }"
             class="project-tab-btn ek rg ml il vi mi">
-            Digital Experiences
+           Corporate Websites
           </button>
           <button data-filter=".ecommerce" @click="filterTab = 4" :class="{ 'gh lk' : filterTab === 4 }"
             class="project-tab-btn ek rg ml il vi mi">
-            Ecommerce
+          Mobile Application
+          </button>
+
+          <button data-filter=".ecommerce" @click="filterTab = 4" :class="{ 'gh lk' : filterTab === 4 }"
+            class="project-tab-btn ek rg ml il vi mi">
+          Web Portals
           </button>
         </div>
 
@@ -607,33 +629,35 @@
           <!-- Project Item -->
           <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
             <div class="c i pg sg z-1">
-              <img src="images/project-01.png" alt="Project" />
+              <img src="images/project-1.jpg" alt="Project" />
 
               <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
                 <h4 class="ek tj kk hc">Photo Retouching</h4>
                 <p>Branded Ecommerce</p>
-                <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="#!">
+                <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="timezone-master\timezone-master\index.html">
                   <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="">
                     <path
                       d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
                   </svg>
                 </a>
               </div>
+
+              
             </div>
           </div>
 
           <!-- Project Item -->
           <div class="project-item wi fb vd jn/2 to/3 digital">
             <div class="c i pg sg z-1">
-              <img src="images/project-02.png" alt="Project" />
+              <img src="images/project-2.png" alt="Project" />
 
               <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
                 <h4 class="ek tj kk hc">Photo Retouching</h4>
                 <p>Branded Ecommerce</p>
-                <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="#!">
+                <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="Polk-1.0.0\Polk-1.0.0\index.html">
                   <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="">
                     <path
                       d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
                   </svg>
@@ -645,7 +669,49 @@
           <!-- Project Item -->
           <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
             <div class="c i pg sg z-1">
-              <img src="images/project-04.png" alt="Project" />
+              <img src="images/project-3.jpg" alt="Project" />
+
+              <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
+                <h4 class="ek tj kk hc">Photo Retouching</h4>
+                <p>Branded Ecommerce</p>
+                <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="kaira-1.0.0\kaira-1.0.0\index.html">
+                  <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="">
+                    <path
+                      d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+<!-- =========================== -->
+ 
+
+
+          <!-- Project Item -->
+          <div class="project-item wi fb vd vo/3 digital ecommerce">
+            <div class="c i pg sg z-1">
+              <img src="images/project-03.png" alt="Project" />
+
+              <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
+                <h4 class="ek tj kk hc">Photo Retouching</h4>
+                <p>Branded Ecommerce</p>
+                <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="coloshop-master\coloshop-master\index.html">
+                  <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="">
+                    <path
+                      d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+           <!-- Project Item -->
+          <div class="project-item wi fb vd vo/3 digital ecommerce">
+            <div class="c i pg sg z-1">
+              <img src="images/Gemini_Generated_Image_j3n36mj3n36mj3n3.png" alt="Project"/>
 
               <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
                 <h4 class="ek tj kk hc">Photo Retouching</h4>
@@ -661,10 +727,12 @@
             </div>
           </div>
 
-          <!-- Project Item -->
-          <div class="project-item wi fb vd vo/3 digital ecommerce">
+
+          <!-- =================== -->
+
+             <div class="project-item wi fb vd jn/2 to/3 digital">
             <div class="c i pg sg z-1">
-              <img src="images/project-03.png" alt="Project" />
+              <img src="images/download.jpg" alt="Project" height="80"/>
 
               <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
                 <h4 class="ek tj kk hc">Photo Retouching</h4>
